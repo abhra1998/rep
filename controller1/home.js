@@ -599,7 +599,7 @@ router.post('/adddonater',(req,res)=>{
               
              });
              donate.save(function(err,data){
-             link='http://18.220.120.44:3000/verify11/'+data._id
+             link='http://18.222.191.145:3000/verify11/'+data._id
              var mailOptions = {
                from: 'abhrabag999@gmail.com',
                to: req.body.email,
@@ -673,7 +673,7 @@ router.post('/ngo-adddonater',(req,res)=>{
               
              });
              newngo.save(function(err,data){
-              link='http://18.220.120.44:3000/verify12/'+data._id
+              link='http://18.222.191.145:3000/verify12/'+data._id
               var mailOptions = {
                 from: 'abhrabag999@gmail.com',
                 to: req.body.email,
