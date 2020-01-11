@@ -46,8 +46,8 @@ const auth1=function(req,res,next){
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'abhrabag999@gmail.com',
-    pass: 'Abhraneel@1'
+    user: 'AKIAZYE63KTI4X7PMG6K',
+    pass: 'BNYfz7Q+iIYC3Ba1mImeby8Y67kSsYxw6swaR9pCL1De'
   }
 });
 router.get('/',(req,res)=>{
